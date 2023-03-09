@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+	<title>Form và Table</title>
+</head>
+<body>
+	<h1>Thông tin khách hàng</h1>
+	<form>
+		<label for="name">Họ tên:</label><br>
+		<input type="text" id="name" name="name"><br>
+
+		<label for="email">Email:</label><br>
+		<input type="email" id="email" name="email"><br>
+
+		<label for="phone">Số điện thoại:</label><br>
+		<input type="tel" id="phone" name="phone"><br>
+
+		<label for="message">Lời nhắn:</label><br>
+		<textarea id="message" name="message" rows="5" cols="50"></textarea><br>
+
+		<input type="submit" value="Gửi">
+	</form>
+	<br>
+	<table>
+		<thead>
+			<tr>
+				<th>Họ tên</th>
+				<th>Email</th>
+				<th>Số điện thoại</th>
+				<th>Lời nhắn</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Hoàng A Quàng</td>
+				<td>quang@gmail.com</td>
+				<td>0987654321</td>
+				<td>Chào bạn, tôi muốn hỏi về sản phẩm XYZ</td>
+			</tr>
+			<tr>
+				<td>Sùng A Lùng</td>
+				<td>lung@gmail.com</td>
+				<td>0123456789</td>
+				<td>Tôi muốn đặt hàng sản phẩm XYZABC</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
